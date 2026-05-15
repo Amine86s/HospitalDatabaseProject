@@ -1,17 +1,20 @@
 
 # Hospital Management Database System
 
-A relational hospital management database system developed using Oracle Database and PL/SQL.
+A comprehensive hospital management database system developed using Oracle Database and PL/SQL.
 
 ## Features
 
-- Patient management
-- Doctor management
-- Appointment scheduling
-- Department management
-- Trigger and sequence automation
-- PL/SQL package implementations
-- 3NF normalization analysis
+- Patient Management
+- Doctor Management
+- Appointment System
+- Payment System
+- Prescription Management
+- Medical Equipment Management
+- Dynamic Reporting System
+- Trigger-based Audit Logging
+- Relational Database Design
+- PL/SQL Packages and Procedures
 
 ---
 
@@ -23,29 +26,35 @@ A relational hospital management database system developed using Oracle Database
 - Trigger
 - Sequence
 - Package
+- Relational Database Design
 
 ---
 
 ## Database Design
 
-The database consists of 13 normalized relational tables.
+The system contains 13+ relational tables designed according to normalization principles.
 
-### Normalization
-- 1NF
-- 2NF
-- 3NF
-
-The system minimizes redundancy and maintains data integrity through relational design principles and foreign key constraints.
+### Concepts Used
+- Primary Key / Foreign Key
+- 1NF / 2NF / 3NF
+- Index Optimization
+- Transaction Management
+- Dynamic Reports
+- CRUD Operations
+- Audit Logging
 
 ---
 
-## Concepts Used
+## Advanced Features
 
-- Relational Database Design
-- Primary Key / Foreign Key
-- Data Integrity
-- Query Optimization
-- PL/SQL Programming
+### Trigger-based Logging System
+All insert, update, and delete operations are automatically logged into the HAREKET table using Oracle Triggers.
+
+### Dynamic Reporting Package
+Dynamic reporting procedures were implemented using PL/SQL packages.
+
+### Package-based CRUD Operations
+Each major entity has dedicated CRUD procedures implemented using Oracle Packages.
 
 ---
 
